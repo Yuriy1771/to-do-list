@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+
+body {
+    margin: 0;
+    padding : 0;
+    background: conic-gradient(from .5turn at bottom center, lightblue, white);
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+}
+
+.toDoList {
+    width: 60%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 5px 2px 25px rgba(0, 75, 105, 0.575);
+}
+
+.header {
+    font-size: 40px;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.inpToDo {
+    width: 300px;
+    height: 40px;
+    margin: 5% auto;
+    border: none;
+    border-bottom: 1px solid black;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Grape Nuts', cursive;
+}
+
+.btnAdd {
+    width: 50px;
+    height: 40px;
+    margin: 5% auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    background: rgb(220, 247, 255);;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btnAdd:hover {
+    transition: all ease-out .2s;
+    background: rgb(235, 250, 255);
+}
