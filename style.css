@@ -14,7 +14,7 @@ body {
 }
 
 .toDoList {
-    width: 60%;
+    width: 50%;
     height: 100vh;
     margin: auto;
     text-align: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .inpToDo {
-    width: 300px;
+    width: 500px;
     height: 40px;
     margin: 5% auto;
     border: none;
@@ -54,4 +54,15 @@ body {
 .btnAdd:hover {
     transition: all ease-out .2s;
     background: rgb(235, 250, 255);
+}
+
+.list {
+    margin-left:  50px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 25px;
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+    font-family: 'Grape Nuts', cursive;
 }
