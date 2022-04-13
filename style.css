@@ -11,11 +11,13 @@ body {
     width: 90%;
     height: 100vh;
     margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .toDoList {
-    width: 50%;
-    height: 100vh;
+    width: 750px;
+    height: auto;
     margin: auto;
     text-align: center;
     background: rgb(255, 255, 255);
@@ -23,8 +25,10 @@ body {
 }
 
 .header {
+    margin: 2% auto;
     font-size: 40px;
     font-family: 'Grape Nuts', cursive;
+    text-shadow: 1px  1px 1px rgb(0, 0, 0);
 }
 
 .inpToDo {
@@ -65,4 +69,12 @@ body {
     color: rgb(59, 59, 59);
     cursor: pointer;
     font-family: 'Grape Nuts', cursive;
+}
+
+.trashBtn {
+    width: 35px;
+    position: relative;
+    top: 20px;
+    padding: 0 5px 0px;
+    cursor: pointer;
 }
